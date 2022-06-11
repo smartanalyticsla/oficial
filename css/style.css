@@ -1,0 +1,323 @@
+@font-face {
+    font-family: 'titulos';
+    src: url(../css/fonts/Quicksand_Bold.otf) format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+body{
+    background: linear-gradient(to top, #c8dc4b, #1acc8d) ;
+}
+img{
+    width: 100%;
+}
+/* general */
+.section-title {
+  padding-bottom: 40px;
+}
+.section-title h2 {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0;
+  line-height: 1px;
+  margin: 0 0 5px 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #000;
+  font-family: "Poppins", sans-serif;
+}
+.section-title h2::after {
+  content: "";
+  width: 120px;
+  height: 1px;
+  display: inline-block;
+  background: #fff;
+  margin: 4px 10px;
+}
+.section-title p {
+  margin: 0;
+  margin: 0;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+.lose{
+    color: red;
+    text-align: center;
+}
+.win{
+    color: green;
+    text-align: center;
+}
+.draw{
+    color: blue;
+    text-align: center;
+}
+tbody tr td{
+    font-size: 12px;
+    text-align: center;
+    font-weight: 300;
+}
+tbody tr td b{
+    font-weight: 300;
+}
+tbody tr td p{
+    color: #aaaaaa;
+}
+@media (max-width:767px){
+    thead tr th{
+        font-size: 13px;
+        text-align: center;
+        font-weight: 300;
+    }
+    tbody tr td{
+        font-size: 10px;
+        text-align: center;
+        font-weight: 300;
+    }
+}
+/* header */
+header .logo{
+    padding-bottom: 30px;
+}
+header .logo img{
+    max-width: 300px;
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+header .icon-redes .item{
+    background: rgba(255, 255, 255, 0.7);
+    padding: 8px 8px 4px 8px;
+    border-radius: 50%;
+    margin: 3px;
+    transition: all .3s;
+}
+header .icon-redes .item:hover{
+    transform: scale(1.2);
+    background: #fff;
+    transition: all .3s;
+}
+header .icon-redes i{
+    color: #1acc8d;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+.pronostic-bg{
+    background: #fff;
+    padding: 20px;
+   
+}
+.pronostic-bg .date-event p{
+    color: #78842d;
+    font-size: 13px;
+}
+.pronostic-bg .date-event p{
+    color: #78842d;
+    font-size: 13px;
+    font-weight: 500;
+}
+.pronostic-bg .ligue p{
+    color: #aaaaaa;
+    font-size: 13px;
+    font-weight: 500;
+}
+.pronostic-bg .tip-type p{
+    color: #000;
+    font-size: 13px;
+    font-weight: 500;
+}
+.pronostic-bg .equipe{
+    padding-top: 10px;
+}
+.pronostic-bg .equipe .logo img{
+    max-width: 50px;
+    width: 100%;
+}
+.pronostic-bg .equipe .name p{
+    color: #343a40;
+    font-size: 17px;
+}
+.btn-sale-tip{
+    display: flex;
+    justify-content: center;
+}
+.sin-pronosticos .btn-sale-tip .btn{
+    padding: 10px 40px;
+    text-transform: uppercase;
+    display: block;
+    width: 520px;
+    text-align: center;
+    border-radius: 0;
+    background: #fce533;
+    color: #000;
+    border-style: none;
+    transition: all .3s;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.pronostic-bg .btn-sale-tip .btn{
+    padding: 10px 40px;
+    text-transform: uppercase;
+    display: block;
+    width: 100%;
+    text-align: center;
+    border-radius: 0;
+    background: #fce533;
+    color: #000;
+    border-style: none;
+    transition: all .3s;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.pronostic-bg .btn-sale-tip .btn:hover{
+    background: #d3c12b;
+    transition: all .3s;
+}
+/* ? ----- Cuenta Regresiva ----- */
+.sin-pronosticos{
+    background: #fff;
+    padding: 20px;
+}
+
+#cuenta {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.simply-section {
+	background: #1acc8d;
+	width: 100px;
+	height: 100px;
+	margin: 0 20px;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.simply-amount {
+	display: block;
+	font-size: 30px;
+	font-weight: 700;
+    text-align: center;
+    color: #fff;
+}
+
+.simply-word {
+	font-weight: 300;
+	font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+@media (max-width:767px) {
+    .simply-section {
+        background: #1acc8d;
+        width: 50px;
+        height: 50px;
+        margin: 0 10px;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .simply-amount {
+        display: block;
+        font-size: 20px;
+        font-weight: 700;
+        text-align: center;
+        color: #fff;
+        margin-bottom: -10px;
+    }
+    
+    .simply-word {
+        font-weight: 300;
+        font-size: 9px;
+        text-align: center;
+        color: #fff;
+        margin-top: -5px;
+    }
+}
+/*--------------------------------------------------------------
+# F.A.Q
+--------------------------------------------------------------*/
+.faq .faq-list {
+  padding: 0;
+}
+.faq .faq-list ul {
+  padding: 0;
+  list-style: none;
+}
+.faq .faq-list li + li {
+  margin-top: 15px;
+}
+.faq .faq-list li {
+  padding: 20px;
+  background: #fff;
+  border-radius: 4px;
+  position: relative;
+}
+.faq .faq-list li span{
+    color: #1acc8d;
+}
+.faq .faq-list li span i{
+    margin-right: 5px;
+    margin-left: 15px;
+    margin-bottom: -3px;
+}
+.faq .faq-list a {
+  display: block;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  padding: 0 30px;
+  outline: none;
+  cursor: pointer;
+}
+.faq .faq-list .icon-help {
+  font-size: 24px;
+  position: absolute;
+  right: 0;
+  left: 20px;
+  color: #34e5a6;
+}
+.faq .faq-list .icon-show, .faq .faq-list .icon-close {
+  font-size: 24px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.faq .faq-list p {
+  margin-bottom: 0;
+  padding: 0;
+}
+.faq .faq-list .icon-show {
+  display: none;
+}
+.faq .faq-list a.collapsed {
+  color: #343a40;
+}
+.faq .faq-list a.collapsed:hover {
+  color: #1acc8d;
+}
+.faq .faq-list a.collapsed .icon-show {
+  display: inline-block;
+}
+.faq .faq-list a.collapsed .icon-close {
+  display: none;
+}
+@media (max-width: 1200px) {
+  .faq .faq-list {
+    padding: 0;
+  }
+}
+@media (max-width:767px){
+
+}
