@@ -133,12 +133,13 @@ header .icon-redes i{
     padding-top: 10px;
 }
 .pronostic-bg .equipe .logo img{
-    max-width: 50px;
+    max-width: 20px !important;
     width: 100%;
+    margin-right: 15px;
 }
 .pronostic-bg .equipe .name p{
     color: #343a40;
-    font-size: 17px;
+    font-size: 13px;
 }
 .btn-sale-tip{
     display: flex;
@@ -177,9 +178,15 @@ header .icon-redes i{
     transition: all .3s;
 }
 /* ? ----- Cuenta Regresiva ----- */
+.portada.oculta {
+	transform: translateY(100%);
+    display: none;
+}
 .sin-pronosticos{
     background: #fff;
     padding: 20px;
+    z-index: 3;
+    width: 100%;
 }
 
 #cuenta {
@@ -246,8 +253,12 @@ header .icon-redes i{
 /*--------------------------------------------------------------
 # F.A.Q
 --------------------------------------------------------------*/
+#faq .section-title{
+    position: relative;
+}
 .faq .faq-list {
   padding: 0;
+  margin-top: 0px;
 }
 .faq .faq-list ul {
   padding: 0;
