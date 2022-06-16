@@ -130,16 +130,16 @@ header .icon-redes i{
     font-weight: 500;
 }
 .pronostic-bg .equipe{
-    padding-top: 10px;
+    padding-top: 20px;
 }
 .pronostic-bg .equipe .logo img{
-    max-width: 20px !important;
+    max-width: 30px !important;
     width: 100%;
     margin-right: 15px;
 }
 .pronostic-bg .equipe .name p{
     color: #343a40;
-    font-size: 13px;
+    font-size: 15px;
 }
 .btn-sale-tip{
     display: flex;
@@ -171,11 +171,44 @@ header .icon-redes i{
     border-style: none;
     transition: all .3s;
     font-weight: 600;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
 .pronostic-bg .btn-sale-tip .btn:hover{
     background: #d3c12b;
     transition: all .3s;
+}
+@media (max-width:575px) {
+    .pronostic-bg .btn-sale{
+        justify-content: center !important;
+        margin-top: 20px;
+        margin-top: 20px;
+        border-top: 1px #f0f0f0 solid;
+    }
+    .pronostic-bg .btn-sale .btn{
+        margin-top: 20px;
+    }
+    .pronostic-bg .date-event p{
+        text-align: center;
+    }
+    .pronostic-bg .ligue p{
+        text-align: center;
+    }
+    .pronostic-bg .tip-type p{
+        text-align: center;
+    }
+    .pronostic-bg .equipe{
+        padding-top: 20px;
+        justify-content: center !important;
+    }
+    .pronostic-bg .equipe .logo img{
+        max-width: 30px !important;
+        width: 100%;
+        margin-right: 15px;
+    }
+    .pronostic-bg .equipe .name p{
+        color: #343a40;
+        font-size: 15px;
+    }
 }
 /* ? ----- Cuenta Regresiva ----- */
 .portada.oculta {
