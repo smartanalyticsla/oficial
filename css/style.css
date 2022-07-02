@@ -108,7 +108,6 @@ header .icon-redes i{
 .pronostic-bg{
     background: #fff;
     padding: 20px;
-   
 }
 .pronostic-bg .date-event p{
     color: #78842d;
@@ -178,6 +177,26 @@ header .icon-redes i{
     transition: all .3s;
 }
 @media (max-width:575px) {
+    .pronostic-bg{
+        border-top: 7px #fce533 solid;
+        border-left: 0px #f0f0f0 solid;
+    }
+    .bg-movil{
+        background: #f0f0f0;
+        padding: 5px;
+    }
+    .event-bg{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+    }
+    .vs{
+        display: inline !important;
+        text-align: center;
+    }
+    .vs .name p{
+        margin-top: 13px;
+    }
     .pronostic-bg .btn-sale{
         justify-content: center !important;
         margin-top: 20px;
@@ -197,17 +216,20 @@ header .icon-redes i{
         text-align: center;
     }
     .pronostic-bg .equipe{
+        display: block !important;
         padding-top: 20px;
         justify-content: center !important;
     }
     .pronostic-bg .equipe .logo img{
         max-width: 30px !important;
         width: 100%;
-        margin-right: 15px;
+        display: block;
+        margin: auto;
     }
     .pronostic-bg .equipe .name p{
         color: #343a40;
         font-size: 15px;
+        text-align: center;
     }
 }
 /* ? ----- Cuenta Regresiva ----- */
